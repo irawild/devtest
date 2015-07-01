@@ -154,18 +154,30 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset-lg{
+	margin-top:80px;
+}
+
 /* Bloc text custom styling */
 
-#hero-bloc h1{
-	font-size:50px;
+#bloc-1 h1{
+	font-size: 42px;
 }
-#hero-bloc h3{
-	font-size:30px;
+#bloc-1 p{
+	font-size: 22px;
 }
-#bloc-2 h1{
+#bloc-2 h3{
+	font-size: 28px;
+}
+#bloc-2 p{
+	font-size: 18px;
+}
+#bloc-4 h1{
 	font-size: 30px;
 }
-#bloc-3 p{
+#bloc-5 p{
 	font-size: 20px;
 }
 
@@ -265,54 +277,6 @@ nav .caret{
 	margin: 0 5px;
 }
 
-/* = Hero
--------------------------------------------------------------- */
-
-.hero{
-	padding:150px 0;
-	position:relative;
-	display:inline-table;
-}
-.hero-nav{
-	position:absolute;
-	margin: 0 auto;
-	top:0;
-	left:0;
-	right:0;
-}
-.v-center{
-	width:100%;
-	height: 100%;
-	display: table;
-	table-layout: fixed;
-}
-.v-center .vc-content{
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-}
-.hero .btn-dwn{
-	width: 58px;
-	height: 58px;
-	line-height: 58px;
-	margin: 0 0 0 -29px;
-	padding: 0;
-	border-radius: 50%;
-	text-align: center;
-	font-size: 18px;
-	color: rgba(255,255,255,.8);
-	background: rgba(0,0,0,.6);
-	position: absolute;
-	left: 50%;
-	bottom: 60px;
-	border:0;
-}
-.hero .btn-dwn:hover{
-	color: rgba(255,255,255,1);
-}
-
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
@@ -356,8 +320,8 @@ button{
 	margin:0 0 0 5px}
 /* = Icons
 -------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
+.icon-lg{
+	font-size:60px!important;
 }
 .icon-round{
 	margin:0 auto;
@@ -379,6 +343,9 @@ button{
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
+.lg-shadow{
+	text-shadow:0 2px 5px rgba(0,0,0,.5);
+}
 .glow-t{
 	text-shadow:0 0 10px #FFF;
 }
@@ -421,6 +388,9 @@ iframe{
 	background-color:#8AD6D8;
 }
 .bgc-white{
+	background-color:#FFFFFF;
+}
+.bgc-white-2{
 	background-color:#ffffff;
 }
 /* Text colour styles */
@@ -433,17 +403,19 @@ iframe{
 }
 /* Button colour styles */
 
+.wire-btn-white{
+	color:#ffffff!important;
+	border-color:#ffffff!important;
+}
 .wire-btn-black{
 	color:#000000!important;
 	border-color:#000000!important;
 }
-/* Link colour styles */
+/* Icon colour styles */
 
-.ltc-white{
+.icon-white{
 	color:#ffffff!important;
-}
-.ltc-white:hover{
-	color:#ffffff!important;
+	border-color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
@@ -462,6 +434,12 @@ iframe{
 }
 .bg-city-overlay{
 	background-image:url("img/city-overlay.png");
+}
+.bg-city{
+	background-image:url('img/city.jpg');
+}
+.bg-city-overlay{
+	background-image:url('img/city-overlay.png');
 }
 
 
