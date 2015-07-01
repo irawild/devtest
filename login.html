@@ -14,7 +14,7 @@
     <script src="./js/blocs.js"></script>
     <script src='./js/jqBootstrapValidation.js'></script>
 	<script src='./js/formHandler.js'></script>
-    <title>Cadastro - Lavagem Delivery</title>
+    <title>Login - Lavagem Delivery</title>
 </head>
 <body>
 <!-- Main container -->
@@ -44,50 +44,36 @@
 			</div>
 		</div>
 	</div>
-</div><!-- Navigation Bloc END --><!-- bloc-5 --><div class="bloc bgc-white-2 b-parallax tc-white bg-city d-bloc" id="bloc-5">
-	<div class="container">
+</div><!-- Navigation Bloc END --><!-- bloc-7 --><div class="bloc bg-city bgc-black d-bloc b-parallax tc-white" id="bloc-7">
+	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center  lg-shadow animated fadeIn">
-					Cadastre-se e faça seu pedido pelo site. Receba também informações sobre o lançamento do aplicativo.
-				</p>
-			</div>
-		</div>
-	</div>
-</div><!-- bloc-5 END --><!-- bloc-6 --><div class="bloc b-parallax bgc-white-2 bg-city d-bloc tc-white" id="bloc-6">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<form id="form-1">
+			<div class="col-sm-12 col-md-6 col-md-offset-3">
+				<form id="form-1744">
 					<div class="form-group">
 						<label>
-							Nome
+							Login
 						</label>
-						<input id="name" class="form-control" />
+						<input class="form-control" id="txtlogin" data-validation-required-message="txtlogin is required." />
 					</div>
 					<div class="form-group">
 						<label>
-							Email
+							Senha
 						</label>
-						<input id="email" class="form-control" type="email" />
+						<input class="form-control" type="password" id="pwbsenha" data-validation-required-message="pwbsenha is required." />
 					</div>
-					<div class="form-group">
-						<label>
-							Mensagem (opcional)
-						</label>
-						<textarea id="message" class="form-control" rows="4" cols="50">
-						</textarea>
-					</div>
-					<div class="text-center">
-						<button class="bloc-button btn animated btn-lg btn-outer-space" type="submit" data-placement="top" data-toggle="tooltip">
-							Enviar
-						</button>
+					<div class="row">
+						<div class="col-sm-6">
+							<a href="meugrumr.html" class="btn   btn-lg pull-left btn-clean btn-outer-space">Entrar</a>
+						</div>
+						<div class="col-sm-6">
+							<a href="index.html" class="btn   btn-lg pull-right btn-clean btn-outer-space">Criar conta</a>
+						</div>
 					</div>
 				</form>
 			</div>
 		</div>
 	</div>
-</div><!-- bloc-6 END -->
+</div><!-- bloc-7 END -->
 </div>
 <!-- Main container END -->
 
