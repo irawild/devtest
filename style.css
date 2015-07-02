@@ -125,6 +125,38 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	border-color:rgba(0,0,0,.3);
 }
 
+
+/* Light theme */
+
+.l-bloc{
+	color:rgba(0,0,0,.5);
+}
+.l-bloc button:hover{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc h1,.l-bloc h2,.l-bloc h3,.l-bloc h4,.l-bloc h5, .l-bloc h6, .l-bloc .ico{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
+	border-color:rgba(0,0,0,.7);
+}
+.l-bloc .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.l-bloc a{
+	color:rgba(0,0,0,.6);
+}
+.l-bloc a:hover{
+	color:rgba(0,0,0,1);
+}
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.l-bloc .btn-wire, .l-bloc .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
 /* Row Margin Offsets */
 
 .voffset-lg{
@@ -369,6 +401,19 @@ button{
 	box-shadow:none;
 }
 
+/* Empty space fillers - Used on empty blocs to fill them out */
+
+.empty-column,.empty-column.thin{
+	width:100%;
+	height:350px;
+	display:inline-block;
+}
+.empty-column{
+	height:350px;
+}
+.empty-column.thin{
+	height:150px;
+}
 /* iFrame */
 
 iframe{
@@ -380,8 +425,8 @@ iframe{
 
 /* Background colour styles */
 
-.bgc-outer-space{
-	background-color:#47454B;
+.bgc-ash-grey{
+	background-color:#B4B4B4;
 }
 .bgc-white{
 	background-color:#FFFFFF;
@@ -391,6 +436,9 @@ iframe{
 }
 .bgc-black{
 	background-color:#000000;
+}
+.bgc-outer-space{
+	background-color:#47454B;
 }
 /* Text colour styles */
 
@@ -412,11 +460,23 @@ iframe{
 	color:#ffffff!important;
 	border-color:#ffffff!important;
 }
+/* Link colour styles */
+
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
+}
 /* Icon colour styles */
 
 .icon-white{
 	color:#ffffff!important;
 	border-color:#ffffff!important;
+}
+.icon-white-2{
+	color:#FFFFFF!important;
+	border-color:#FFFFFF!important;
 }
 
 /* Bloc image backgrounds */
@@ -434,13 +494,13 @@ iframe{
 	background-image:url("img/city.jpg");
 }
 .bg-city{
-	background-image:url('img/city.jpg');
+	background-image:url("img/city.jpg");
 }
 .bg-city-overlay{
-	background-image:url('img/city-overlay.png');
+	background-image:url("img/city-overlay.png");
 }
 .bg-water{
-	background-image:url('img/water.png');
+	background-image:url("img/water.png");
 }
 
 
