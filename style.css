@@ -341,6 +341,9 @@ button{
 .icon-lg{
 	font-size:60px!important;
 }
+.icon-xl{
+	font-size:100px!important;
+}
 .icon-round{
 	margin:0 auto;
 	border:2px solid transparent;
@@ -392,6 +395,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -401,19 +420,6 @@ button{
 	box-shadow:none;
 }
 
-/* Empty space fillers - Used on empty blocs to fill them out */
-
-.empty-column,.empty-column.thin{
-	width:100%;
-	height:350px;
-	display:inline-block;
-}
-.empty-column{
-	height:350px;
-}
-.empty-column.thin{
-	height:150px;
-}
 /* iFrame */
 
 iframe{
@@ -440,6 +446,9 @@ iframe{
 .bgc-outer-space{
 	background-color:#47454B;
 }
+.bgc-verdigris{
+	background-color:#40A8A6;
+}
 /* Text colour styles */
 
 .tc-white{
@@ -448,15 +457,20 @@ iframe{
 .tc-white-2{
 	color:#FFFFFF!important;
 }
+.tc-pale-robin-egg-blue{
+	color:#8AD6D8!important;
+}
 /* Button colour styles */
 
-.btn-outer-space{
-	background-color:#47454B;
-	color:#FFF!important;
+.btn-verdigris{
+	background:#40A8A6;
+	color:#FFFFFF!important;
 }
-.btn-outer-space:hover{
-	background-color:#3b393e;
-	!important}.wire-btn-white{
+.btn-verdigris:hover{
+	background:#338685;
+	color:#FFFFFF!important;
+}
+.wire-btn-white{
 	color:#ffffff!important;
 	border-color:#ffffff!important;
 }
@@ -498,6 +512,9 @@ iframe{
 }
 .bg-city-overlay{
 	background-image:url("img/city-overlay.png");
+}
+.bg-water{
+	background-image:url("img/water.png");
 }
 .bg-water{
 	background-image:url("img/water.png");
