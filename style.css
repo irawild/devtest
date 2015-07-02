@@ -177,10 +177,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #bloc-2 p{
 	font-size: 18px;
 }
-#bloc-4 h1{
-	font-size: 30px;
+#bloc-4 h4{
+	font-size: 22px;
 }
-#bloc-5 p{
+#bloc-6 p{
 	font-size: 20px;
 }
 
@@ -428,9 +428,6 @@ iframe{
 
 /* Background colour styles */
 
-.bgc-ash-grey{
-	background-color:#B4B4B4;
-}
 .bgc-white{
 	background-color:#FFFFFF;
 }
@@ -446,10 +443,16 @@ iframe{
 .bgc-verdigris{
 	background-color:#40A8A6;
 }
+.bgc-ash-grey{
+	background-color:#B4B4B4;
+}
 /* Text colour styles */
 
 .tc-white{
 	color:#ffffff!important;
+}
+.tc-black{
+	color:#000000!important;
 }
 .tc-white-2{
 	color:#FFFFFF!important;
@@ -473,11 +476,11 @@ iframe{
 }
 /* Link colour styles */
 
-.ltc-white{
-	color:#FFFFFF!important;
+.ltc-outer-space{
+	color:#47454B!important;
 }
-.ltc-white:hover{
-	color:#cccccc!important;
+.ltc-outer-space:hover{
+	color:#3b393e!important;
 }
 /* Icon colour styles */
 
