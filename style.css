@@ -51,6 +51,9 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 /* Sizes */
 
+.bloc-xl{
+	padding:150px 50px;
+}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -157,12 +160,6 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset-lg{
-	margin-top:80px;
-}
-
 /* Bloc text custom styling */
 
 #bloc-1 h1{
@@ -171,13 +168,13 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #bloc-1 p{
 	font-size: 22px;
 }
-#bloc-2 h3{
+#bloc-3 h3{
 	font-size: 28px;
 }
-#bloc-2 p{
+#bloc-3 p{
 	font-size: 18px;
 }
-#bloc-4 h4{
+#bloc-5 h4{
 	font-size: 22px;
 }
 #bloc-6 p{
@@ -316,14 +313,6 @@ button{
 	text-shadow:0 1px 0 rgba(0,0,1,.1);
 	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
 }
-.btn-wire{
-	background:transparent!important;
-	border:2px solid transparent;
-}
-.btn-wire:hover{
-	background:transparent!important;
-	border:2px solid transparent;
-}
 .btn-xl{
 	padding: 16px 40px;
 	font-size: 28px;
@@ -428,28 +417,28 @@ iframe{
 
 /* Background colour styles */
 
-.bgc-white{
-	background-color:#FFFFFF;
-}
-.bgc-white-2{
-	background-color:#ffffff;
-}
-.bgc-black{
-	background-color:#000000;
+.bgc-glitter{
+	background-color:#E6F4F8;
 }
 .bgc-outer-space{
 	background-color:#47454B;
 }
+.bgc-white{
+	background-color:#ffffff;
+}
+.bgc-white-2{
+	background-color:#FFFFFF;
+}
 .bgc-verdigris{
 	background-color:#40A8A6;
-}
-.bgc-ash-grey{
-	background-color:#B4B4B4;
 }
 /* Text colour styles */
 
 .tc-white{
 	color:#ffffff!important;
+}
+.tc-verdigris{
+	color:#40A8A6!important;
 }
 .tc-black{
 	color:#000000!important;
@@ -470,10 +459,6 @@ iframe{
 	background:#338685;
 	color:#FFFFFF!important;
 }
-.wire-btn-white{
-	color:#ffffff!important;
-	border-color:#ffffff!important;
-}
 /* Link colour styles */
 
 .ltc-outer-space{
@@ -485,39 +470,40 @@ iframe{
 /* Icon colour styles */
 
 .icon-white{
-	color:#ffffff!important;
-	border-color:#ffffff!important;
-}
-.icon-white-2{
 	color:#FFFFFF!important;
 	border-color:#FFFFFF!important;
+}
+.icon-verdigris{
+	color:#40A8A6!important;
+	border-color:#40A8A6!important;
+}
+.icon-black{
+	color:#000000!important;
+	border-color:#000000!important;
 }
 
 /* Bloc image backgrounds */
 
-.bg-water{
-	background-image:url("img/water.png");
-}
 .bg-10847205-564479870363366-1513521659351101462-o{
 	background-image:url("img/10847205_564479870363366_1513521659351101462_o.jpg");
 }
+.bg-city{
+	background-image:url("img/city.jpg");
+}
 .bg-water{
 	background-image:url("img/water.png");
-}
-.bg-city{
-	background-image:url("img/city.jpg");
-}
-.bg-city{
-	background-image:url("img/city.jpg");
 }
 .bg-city-overlay{
-	background-image:url("img/city-overlay.png");
+	background-image:url('img/city-overlay.png');
 }
 .bg-water{
-	background-image:url("img/water.png");
+	background-image:url('img/water.png');
 }
-.bg-water{
-	background-image:url("img/water.png");
+.bg-shutterstock-79292233{
+	background-image:url('img/shutterstock_79292233.jpg');
+}
+.bg-shutterstock-251735500{
+	background-image:url('img/shutterstock_251735500.jpg');
 }
 
 
